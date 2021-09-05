@@ -31,19 +31,22 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Tech Stack
 
-#React
-#Typescript
-#React Testing Library
-#Jest
+- React
+- Typescript
+- React Testing Library
+- Jest
 
-## Choice of libarary
+## Choice of library
 
-#react-google-maps - Stable, Widely used
+- react-google-maps - Stable, Widely used, Good community support
 
 ## Enhancement
 
-#Would like to add some styling libarary to look the design beautiful.
-#Would implement some pop over to show the launch details
-#Sorting logic
+- Would like to add some styling libarary to look the design beautiful.
+- Would implement some pop over to show the launch details
+    - I will create a component for the same which can be rendered while     clicking on any location
+    - Pass the required props
+- Sorting logic
+- Would change or enhance the filtering logic for agencies based on name 
 
 
