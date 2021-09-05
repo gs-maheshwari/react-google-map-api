@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ListRocketLaunch 1`] = `
+<div
+  className="launchContainer"
+>
+  <div
+    className="form"
+  >
+    <label>
+      Start date:
+      <input
+        name="start"
+        onBlur={[Function]}
+        type="date"
+      />
+    </label>
+    <label>
+      End date:
+      <input
+        name="end"
+        onBlur={[Function]}
+        type="date"
+      />
+    </label>
+    <input
+      className="btn"
+      onClick={[Function]}
+      type="button"
+      value="Search"
+    />
+    <span
+      data-testid="totalLaunches"
+    >
+      Total Launches: 
+      1
+    </span>
+  </div>
+  <br />
+  <div
+    className="btnGrp"
+  >
+    <input
+      className="btn"
+      data-testid="previous"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value="Previous"
+    />
+    <input
+      className="btn"
+      data-testid="next"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Next"
+    />
+  </div>
+</div>
+`;
